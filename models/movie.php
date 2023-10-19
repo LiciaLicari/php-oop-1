@@ -69,13 +69,13 @@ class Movie
         $this->timeDuration = $_timeDuration;
     }
 
-    public function getGenre()
+    public function getGenres()
     {
-        return $this->genre;
+        return $this->genres;
     }
 
-    public function setGenre($_genre)
+    public function setGenres($_genres)
     {
-        $this->genre = $_genre;
+        $this->genres = $_genres;
     }
 }
