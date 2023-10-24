@@ -16,10 +16,10 @@ class Movie
 
     function __construct(
         $_title,
+        $_genres,
+        $_timeDuration,
         $_year,
         $_director,
-        $_timeDuration,
-        $_genres,
 
     ) {
         $this->setTitle($_title);

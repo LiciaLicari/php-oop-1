@@ -128,6 +128,9 @@ include __DIR__ . '/db.php';
             <?php foreach ($movies as $i => $movie) : ?>
                 <div class="col">
                     <div class="card border-0 h-100">
+
+
+                    
                         <div class="card-body">
                             <h4>Title: <?= $movies[$i]->getTitle() ?></h5>
                                 <h5>Genres:</h5>
